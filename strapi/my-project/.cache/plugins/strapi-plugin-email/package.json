@@ -1,0 +1,74 @@
+{
+  "_from": "strapi-plugin-email@3.1.7",
+  "_id": "strapi-plugin-email@3.1.7",
+  "_inBundle": false,
+  "_integrity": "sha512-Xhj15ydhrIuLm4LOfevCLlpCXbOHGfgUcX1Gg5xbtyM3MyCww6OAQFTsU1MZ8bY/XGpQZhS5lH+/W/ta7FaGfw==",
+  "_location": "/strapi-plugin-email",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "strapi-plugin-email@3.1.7",
+    "name": "strapi-plugin-email",
+    "escapedName": "strapi-plugin-email",
+    "rawSpec": "3.1.7",
+    "saveSpec": null,
+    "fetchSpec": "3.1.7"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/strapi-plugin-email/-/strapi-plugin-email-3.1.7.tgz",
+  "_shasum": "eb82e040589707e92b4b34155439de4a00ff4365",
+  "_spec": "strapi-plugin-email@3.1.7",
+  "_where": "C:\\Users\\Fredr\\Desktop\\strapi\\my-project",
+  "author": {
+    "name": "Strapi team",
+    "email": "hi@strapi.io",
+    "url": "http://strapi.io"
+  },
+  "bugs": {
+    "url": "https://github.com/strapi/strapi/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "lodash": "4.17.19",
+    "strapi-provider-email-sendmail": "3.1.7",
+    "strapi-utils": "3.1.7"
+  },
+  "deprecated": false,
+  "description": "This is the description of the plugin.",
+  "devDependencies": {
+    "rimraf": "3.0.0",
+    "strapi-helper-plugin": "3.1.7"
+  },
+  "engines": {
+    "node": ">=10.16.0 <13",
+    "npm": ">=6.0.0"
+  },
+  "gitHead": "564f9228ca236f310d54e0ed94deee750f52301e",
+  "homepage": "https://github.com/strapi/strapi#readme",
+  "license": "SEE LICENSE IN LICENSE",
+  "maintainers": [
+    {
+      "name": "Strapi team",
+      "email": "hi@strapi.io",
+      "url": "http://strapi.io"
+    }
+  ],
+  "name": "strapi-plugin-email",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/strapi/strapi.git"
+  },
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  },
+  "strapi": {
+    "name": "Email",
+    "icon": "paper-plane",
+    "description": "email.plugin.description",
+    "required": true
+  },
+  "version": "3.1.7"
+}
